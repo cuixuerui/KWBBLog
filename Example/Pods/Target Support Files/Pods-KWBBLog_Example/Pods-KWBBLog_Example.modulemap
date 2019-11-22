@@ -1,0 +1,6 @@
+framework module Pods_KWBBLog_Example {
+  umbrella header "Pods-KWBBLog_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

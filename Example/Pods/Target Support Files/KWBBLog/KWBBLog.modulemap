@@ -1,0 +1,6 @@
+framework module KWBBLog {
+  umbrella header "KWBBLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

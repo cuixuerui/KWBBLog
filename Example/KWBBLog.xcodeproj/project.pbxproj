@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0992695FBD4E1DB61DE6202C /* Pods-KWBBLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWBBLog_Tests.release.xcconfig"; path = "Target Support Files/Pods-KWBBLog_Tests/Pods-KWBBLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		23771978DFF4B68CB6AC5FAF /* KWBBLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KWBBLog.podspec; path = ../KWBBLog.podspec; sourceTree = "<group>"; };
+		23771978DFF4B68CB6AC5FAF /* KWBBLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KWBBLog.podspec; path = ../KWBBLog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* KWBBLog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWBBLog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +60,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B620A8C5984355DA508C2B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8B620A8C5984355DA508C2B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		982F00F1F4EA043DC1E0A43C /* Pods-KWBBLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWBBLog_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KWBBLog_Tests/Pods-KWBBLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E84AAC60F0A04B356A42D45 /* Pods_KWBBLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWBBLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E6B633EEC119E879652B64 /* Pods-KWBBLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWBBLog_Example.release.xcconfig"; path = "Target Support Files/Pods-KWBBLog_Example/Pods-KWBBLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C953DEC8773CC8E658191AFF /* Pods_KWBBLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWBBLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C99B653F4B477CF6D18378FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C99B653F4B477CF6D18378FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CDF8F63500C743DD78D4ADF6 /* Pods-KWBBLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWBBLog_Example.debug.xcconfig"; path = "Target Support Files/Pods-KWBBLog_Example/Pods-KWBBLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				982F00F1F4EA043DC1E0A43C /* Pods-KWBBLog_Tests.debug.xcconfig */,
 				0992695FBD4E1DB61DE6202C /* Pods-KWBBLog_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +302,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KWBBLog_Example/Pods-KWBBLog_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
 				"${BUILT_PRODUCTS_DIR}/KWBBLog/KWBBLog.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KWBBLog.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

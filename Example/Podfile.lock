@@ -1,0 +1,25 @@
+PODS:
+  - GCDWebServer (3.5.3):
+    - GCDWebServer/Core (= 3.5.3)
+  - GCDWebServer/Core (3.5.3)
+  - KWBBLog (0.0.1):
+    - GCDWebServer
+
+DEPENDENCIES:
+  - KWBBLog (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GCDWebServer
+
+EXTERNAL SOURCES:
+  KWBBLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
+  KWBBLog: 57685335f3e4375248cf86540c04710f9ef7dadf
+
+PODFILE CHECKSUM: db1071338ebff3277f518266a57691ce82eafe55
+
+COCOAPODS: 1.7.5
