@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "KWBBLog.h"
+#import "KWBBLogPrivate.h"
+#import "KWBBLogServer.h"
+#import "KWBBPageInfo.h"
 
 FOUNDATION_EXPORT double KWBBLogVersionNumber;
 FOUNDATION_EXPORT const unsigned char KWBBLogVersionString[];

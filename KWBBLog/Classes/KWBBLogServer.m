@@ -2,8 +2,8 @@
 //  KWBBLogServer.m
 //  Apollo
 //
-//  Created by apus on 2019/6/17.
-//  Copyright © 2019 apus.cuixuerui.com. All rights reserved.
+//  Created by cuixuerui on 2019/6/17.
+//  Copyright © 2019 cuixuerui.cn. All rights reserved.
 //
 
 #import "KWBBLogServer.h"

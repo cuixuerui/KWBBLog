@@ -2,8 +2,8 @@
 //  APSLogPrivate.h
 //  Apollo
 //
-//  Created by apus on 2019/6/18.
-//  Copyright © 2019 apus.cuixuerui.com. All rights reserved.
+//  Created by cuixuerui on 2019/6/18.
+//  Copyright © 2019 cuixuerui.cn. All rights reserved.
 //
 #import "KWBBLog.h"
 #import "KWBBLogServer.h"
