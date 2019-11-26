@@ -35,7 +35,7 @@
 		874D2C4CDE3175C86C4A1CE35ED70320 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = B3AE28C21A83938BE0861142D80BCF2A /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD2F45474A7BB6E3CB4C24D9B5C4F06 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 26FA47357F6B315E7515FE97B55D6A13 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96D8CD5835DDAC4056FE8B3AB001412D /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 473871E6D2751CF6974E46659BBC570F /* GCDWebServerResponse.m */; };
-		9A37F0B3F3912793583EF21C10C397ED /* KWBBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 910608B9B4431C9401FB318570454D09 /* KWBBLog.m */; };
+		9A37F0B3F3912793583EF21C10C397ED /* KWBBLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 910608B9B4431C9401FB318570454D09 /* KWBBLog.mm */; };
 		A0FA47E2B102E2B513EE3763CF9C6FCC /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E005C11A978E6CF5A5A32C3422C992ED /* GCDWebServerStreamedResponse.m */; };
 		A1BCA4B28B4EA05ECA948402605A1028 /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEFEFC5B0CFB255129E91F37A279632 /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A251D437B3DD41EA95A5ACDEDD53D75F /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F15068DE78E81554DE14EAFF13F7EE3 /* GCDWebServerFunctions.m */; };
@@ -91,11 +91,11 @@
 
 /* Begin PBXFileReference section */
 		00706C190BCA2E696B2EC6662C7B07A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		020D81C5FAC1647A728F85A6407D0A93 /* Pods_KWBBLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KWBBLog_Example.framework; path = "Pods-KWBBLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		020D81C5FAC1647A728F85A6407D0A93 /* Pods_KWBBLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWBBLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FBAE343DFC33E288E2F0A6B05C1CFB /* Pods-KWBBLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWBBLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0B8908C190E04B66D72911941006822F /* KWBBLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBBLog.h; path = KWBBLog/Classes/KWBBLog.h; sourceTree = "<group>"; };
 		0D603A05494D4AF2FA6C0112647038EF /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
-		1F516E9AB613C7A4E01ABB9294C2552C /* KWBBLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KWBBLog.framework; path = KWBBLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F516E9AB613C7A4E01ABB9294C2552C /* KWBBLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KWBBLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		248CB735B49664AE108C1CC03E1885FF /* KWBBLogPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBBLogPrivate.h; path = KWBBLog/Classes/KWBBLogPrivate.h; sourceTree = "<group>"; };
 		268B8F800403FCCF7856273E069C2F63 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
 		26FA47357F6B315E7515FE97B55D6A13 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
@@ -107,13 +107,13 @@
 		34B0D60DE2DC67BA778B6424A2622872 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
 		363D60A7D26BB0F831A5E1538C36A8BB /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
 		3A5E2148A09EA1E352D37F4FD1A2FFEC /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
-		450237A70477CD9DEE64E4CED308AE97 /* Pods_KWBBLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KWBBLog_Tests.framework; path = "Pods-KWBBLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		450237A70477CD9DEE64E4CED308AE97 /* Pods_KWBBLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWBBLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		473871E6D2751CF6974E46659BBC570F /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
 		4921A8E97F29DCA86B30E0F78A26B9E4 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
 		4DB62FE772CA0208DD2C140C7427AAC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		573A23C7521A80D00C128915AD7A2D01 /* KWBBLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KWBBLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		573A23C7521A80D00C128915AD7A2D01 /* KWBBLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KWBBLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5B514C84951C8A23DF589EAA45422777 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
-		5B7E1523E8D41F240A1B20C2F5B2C3DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5B7E1523E8D41F240A1B20C2F5B2C3DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5FA4D53FF44F1684DF47AC436C248017 /* Pods-KWBBLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWBBLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5FB510F987A12419DC36621996F3D279 /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
 		65061D1E5D686D0C6AF66E51041FBF2D /* Pods-KWBBLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KWBBLog_Example.modulemap"; sourceTree = "<group>"; };
@@ -126,12 +126,12 @@
 		7DA4C9CF38B990CE4BA31BB180F10193 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
 		7FCE16311E9CD8784764D25EF9D5D6C9 /* Pods-KWBBLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWBBLog_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8817CE6B2ED9FBEFD202A39C4A71656E /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
-		910608B9B4431C9401FB318570454D09 /* KWBBLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBBLog.m; path = KWBBLog/Classes/KWBBLog.m; sourceTree = "<group>"; };
+		910608B9B4431C9401FB318570454D09 /* KWBBLog.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = KWBBLog.mm; path = KWBBLog/Classes/KWBBLog.mm; sourceTree = "<group>"; };
 		9250FF897A72E2A241577B23F1A8D9BD /* GCDWebServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.xcconfig; sourceTree = "<group>"; };
 		95EC9FC1212A224FFDD085D55BDE9843 /* Pods-KWBBLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWBBLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		96A1F750598F23324BA857238337A40E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		96A1F750598F23324BA857238337A40E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9963E94065F271F69CA1C7F61A4D2508 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F15068DE78E81554DE14EAFF13F7EE3 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
 		9F70DB35924E8D578900D9892B1AE000 /* Pods-KWBBLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWBBLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A2FE516F22281CA6A0443CDEA4A03F43 /* Pods-KWBBLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWBBLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		B3071187F2F29C74B522E10DFEA37966 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
 		B3AE28C21A83938BE0861142D80BCF2A /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
 		B6010E0D15DFE9EDD6DA845B7E67F9A6 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
-		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96632A7E32D1E16F54EC530CC244904 /* Pods-KWBBLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWBBLog_Tests-dummy.m"; sourceTree = "<group>"; };
 		BCCFE1F774FB68BD86A34CDA5262DBA7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		C01386A89E3B753C543D9662C14E6D36 /* KWBBPageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBBPageInfo.h; path = KWBBLog/Classes/KWBBPageInfo.h; sourceTree = "<group>"; };
@@ -239,7 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				0B8908C190E04B66D72911941006822F /* KWBBLog.h */,
-				910608B9B4431C9401FB318570454D09 /* KWBBLog.m */,
+				910608B9B4431C9401FB318570454D09 /* KWBBLog.mm */,
 				248CB735B49664AE108C1CC03E1885FF /* KWBBLogPrivate.h */,
 				A46D344453D998FA072C6291C71CF474 /* KWBBLogServer.h */,
 				DD75BE438D0D5EB4A475B165B3D4BDFD /* KWBBLogServer.m */,
@@ -306,7 +306,6 @@
 				6DC097FDB981284BA52CF3EFBC82AE1D /* Core */,
 				A15CABACADA0997E17517B6028BB9768 /* Support Files */,
 			);
-			name = GCDWebServer;
 			path = GCDWebServer;
 			sourceTree = "<group>";
 		};
@@ -612,7 +611,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08ABF09FB0174245A0331A28DEC7515 /* KWBBLog-dummy.m in Sources */,
-				9A37F0B3F3912793583EF21C10C397ED /* KWBBLog.m in Sources */,
+				9A37F0B3F3912793583EF21C10C397ED /* KWBBLog.mm in Sources */,
 				07D3C32742FB2D4A7D0B81DE30840192 /* KWBBLogServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -763,8 +762,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
