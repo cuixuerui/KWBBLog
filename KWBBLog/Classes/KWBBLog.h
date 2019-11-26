@@ -24,6 +24,9 @@ typedef NS_ENUM(NSUInteger, KWBBWebDisplay) {
     KWBBWebDisplayOFF,
 };
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 extern void BBLog(NSString *format, ...) NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
 extern void BBDebug(NSString *format, ...) NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
 extern void BBInfo(NSString *format, ...) NS_FORMAT_FUNCTION(1,2) NS_NO_TAIL_CALL;
@@ -37,6 +40,11 @@ extern void BBStopService(void);
 extern void BBRestartService(void);
 extern void SetBBLogLevel(KWBBLoggerLevel level);
 extern void SetDDWebDisplay(KWBBWebDisplay level);
+
+#ifdef __cplusplus
+}
+#endif
+
 
 @interface KWBBLog : NSObject
 
