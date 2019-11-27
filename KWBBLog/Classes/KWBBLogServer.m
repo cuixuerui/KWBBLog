@@ -60,6 +60,14 @@
     return self;
 }
 
+- (NSString *)webServerUrl {
+    if (_webServer.serverURL != nil) {
+        return _webServer.serverURL.absoluteString;
+    } else {
+        return nil;
+    }
+}
+
 + (void)logMsg:(NSString *)msg {
     KWBBLogServer * logServer = [KWBBLogServer shared];
     NSUInteger length = [logServer bytesLengthWithString:logServer.logString];
